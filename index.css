@@ -31,6 +31,10 @@ input {
     margin: 10px 0;
 }
 
+input:focus::placeholder {
+  color: transparent;
+}
+
 button {
     color: #FDFDFD;
     background-color: #CaAD7e;
